@@ -14,7 +14,10 @@
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg position-absolute w-100 bg-warning" data-bs-theme="light">
         <div class="container">
-            <a href="#" class="navbar-brand"> XtremeFit Gym</a>
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo4.png" alt="" width="50" height="30" class="d-inline-block align-text-top">
+                XtremeFit Gym
+            </a>
             <button class="navbar-toggler" type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -33,17 +36,64 @@
                             <a href="#" class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Classes</a>
+                            <a href="#" class="nav-link" data-bs-theme="dark">Classes</a>
                         </li>
                         <li class="nav-item">
                             <button type="button" class="join-now-btn btn btn-dark"
                             data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">Join now</button>
+                            data-bs-target="#exampleModal" data-bs-theme="dark">Join now</button>
                         </li>
                     </ul>
                 </div>
+            </div>
+        </nav>
+
+    <!-- HEADER -->
+    <header class="text-light">
+    <div class="container d-flex h-100">
+        <div class="row m-0 w-100">
+            <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <h1 class="text-capitalize">
+                    <span class="text-warning">Never</span> give up
+                </h1>
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="bg-dark p-5">
+                    <p class="h1 mb-5">From only <span class="text-warning">$15.99</span> per month</p>
+                    <button type="button" class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Join now</button>
+
+                    <!-- MODAL -->
+                    <div class="model fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-text" class="col-form-label">Message:</label>
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Submit</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
+    </div>
+    </header>
 
 
 
