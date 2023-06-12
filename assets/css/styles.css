@@ -35,6 +35,14 @@ header h1 {
     background-size: cover;
 }
 
+.section-open-time ul {
+    list-style-type: none;
+}
+
+.section-open-time a {
+    text-decoration: none;
+}
+
 @media (max-width: 992px) {
     nav .join-now-btn {
         margin-left: 0;
