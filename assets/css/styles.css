@@ -6,13 +6,33 @@ nav .join-now-btn {
 
 header {
     height: 100vh;
-    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/header.jpg);
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/header.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 header h1 {
     font-size: 5rem;
+}
+
+.section-classes .card-1 {
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/Training6.jpg) no-repeat;
+}
+
+.section-classes .card-2 {
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/karate2.jpg) no-repeat;
+}
+
+.section-classes .card-3 {
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/zumba.jpg) no-repeat;
+}
+
+.section-classes .card-1,
+.section-classes .card-2,
+.section-classes .card-3 {
+    height: 500px;
+    background-position: center;
+    background-size: cover;
 }
 
 @media (max-width: 992px) {
